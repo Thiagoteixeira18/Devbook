@@ -16,7 +16,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// CarregarTelaDelogin renderiza tela de login
+// CarregarTelaDelogin renderiza tela de login.
 func CarregarTelaDeLogin(w http.ResponseWriter, r *http.Request) {
 	cookie, _ := cookies.Ler(r)
 	if cookie["token"] != "" {
