@@ -8,7 +8,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-// ApiUrl representa a Url para comunicação com a api.
+// ApiUrl representa a Url para comunicação com a api
 var (
 	APIURL  = ""
 	Porta    = 0

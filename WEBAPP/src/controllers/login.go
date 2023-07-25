@@ -11,7 +11,7 @@ import (
 	"webapp/src/respostas"
 )
 
-// FazerLogin utiliza o email e senha do usuario para autenticar na API.
+// FazerLogin utiliza o email e senha do usuario para autenticar na API
 func FazerLogin(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 
