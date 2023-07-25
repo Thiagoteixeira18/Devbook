@@ -13,7 +13,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-// CriarPublicacao chama a API para cadastrar uma publicação no banco de dados
+// CriarPublicacao chama a API para cadastrar uma publicação no banco de dados.
 func CriarPublicacao(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 
