@@ -15,7 +15,7 @@ func Configurar() {
 	s = securecookie.New(config.HashKey, config.BlockKey)
 }
 
-// Salvar registra as informações de autenticação
+// Salvar registra as informações de autenticação.
 func Salvar(w http.ResponseWriter, ID, token string) error {
 	dados := map[string]string{
 		"id":    ID,
